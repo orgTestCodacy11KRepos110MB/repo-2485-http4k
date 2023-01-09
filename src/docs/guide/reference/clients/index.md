@@ -23,7 +23,7 @@ implementation group: "org.http4k", name: "http4k-client-apache4-async", version
 implementation group: "org.http4k", name: "http4k-client-fuel", version: "4.35.4.0"
 
 // Helidon (Loom-based): 
-implementation group: "org.http4k", name: "http4k-client-helidon", version: "4.34.3.1"
+implementation group: "org.http4k", name: "http4k-client-helidon", version: "4.35.4.0"
 
 // Jetty (Sync + Async + WebSocket): 
 implementation group: "org.http4k", name: "http4k-client-jetty", version: "4.35.4.0"

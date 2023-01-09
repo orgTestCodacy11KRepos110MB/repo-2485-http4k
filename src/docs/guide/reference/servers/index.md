@@ -10,8 +10,11 @@ implementation group: "org.http4k", name: "http4k-server-apache", version: "4.35
 // Apache v4: 
 implementation group: "org.http4k", name: "http4k-server-apache4", version: "4.35.4.0"
 
-// Jetty: 
+// Jetty & Jetty Loom: 
 implementation group: "org.http4k", name: "http4k-server-jetty", version: "4.35.4.0"
+
+// Helidon: 
+implementation group: "org.http4k", name: "http4k-server-ktorcio", version: "4.35.4.0"
 
 // Ktor CIO: 
 implementation group: "org.http4k", name: "http4k-server-ktorcio", version: "4.35.4.0"
@@ -28,7 +31,7 @@ implementation group: "org.http4k", name: "http4k-server-ratpack", version: "4.3
 // Undertow: 
 implementation group: "org.http4k", name: "http4k-server-undertow", version: "4.35.4.0"
 
-// SunHttp (for development only): 
+// SunHttp & SunHttpLoom (for development only): 
 implementation group: "org.http4k", name: "http4k-core", version: "4.35.4.0"
 ```
 
